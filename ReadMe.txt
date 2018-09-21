@@ -1,0 +1,1 @@
+Craft Demonstration FrameworkHow to Execute:Run 'testng.xml'Once Eecution complete then check the result in ReportGenerator folder.
