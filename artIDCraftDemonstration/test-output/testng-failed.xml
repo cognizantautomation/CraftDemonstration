@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]">
+  <parameter name="restURI" value="https://api.nasa.gov"/>
+  <parameter name="element_count" value="21"/>
+  <test name="CraftDemonstration">
+    <parameter name="restURI" value="https://api.nasa.gov"/>
+    <parameter name="element_count" value="21"/>
+    <classes>
+      <class name="artIDCraftDemonstration.RetrieveDataBasedOnFilter"/>
+      <class name="artIDCraftDemonstration.ValidateResponseStatusCode"/>
+    </classes>
+  </test> <!-- CraftDemonstration -->
+</suite> <!-- Failed suite [Suite] -->
